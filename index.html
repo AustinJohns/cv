@@ -1,86 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Austin Johns</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austin Johns - Software Developer</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      background: linear-gradient(to bottom right, #f7f7f7, #f0f0f0);
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .nav-links li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    section {
+      padding: 50px 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      border-radius: 4px;
+    }
+
+    #hero {
+      background: linear-gradient(to bottom right, #eef2f3, #f5f5f5);
+      text-align: center;
+      padding: 100px 0;
+      color: #333;
+    }
+
+    .hero-content {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
-    <table cellspacing = "20">
-        <tr>
-            <td><img src="Austin Johns.png" alt="" height="200px"></td>
-            <td><h1>Austin Johns</h1>
-                <p><em>B.Tech Graduate with 2 years of work experience in <strong>
-                    <a href="https://www.coursera.org/articles/back-end-developer">Back-end Development</a></strong></em></p>
-                <p>Loves coding, travelling and photography</p>
-                <hr></td>
-        </tr>
-    </table>    
-    <h3>Work Experience</h3>
-    <table>
-        <tr>
-            <th>Dates</th>
-            <th>Organisation</th>
-        </tr>
-        <tr>
-            <td>2021-2023</td>
-            <td>Programmer at Bayasys Infotech</td>
-        </tr>
-        <tr>
-            <td>2018-2019</td>
-            <td>ML Intern at Dept. Of Biology, Kerala</td>
-        </tr>
-    </table>
-    <h3>Education</h3>
-    <ul>
-        <li>B.Tech In Computer Science; Christ College Of Engineering, Thrissur</li>
-        <li>Higher Secondary Computer Science; Don Bosco HSS, Thrissur</li>
-        <li>High School; Christ Vidyanikethan ICSE, Thrissur</li>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="2">
-        <tr>
-            <td>
-                <table>
-                <tr>
-                    <td>MySQL</td>
-                    <td>⭐⭐⭐✩✩</td>
-                </tr>
-                <tr>
-                    <td>PostGreSQL</td>
-                    <td>⭐⭐⭐✩✩</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>⭐⭐⭐✩✩</td>
-                </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐✩✩</td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>⭐⭐⭐✩✩</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>⭐⭐⭐✩✩</td>
-                    </tr>
-                    </table>
-            </td>
-        </tr>
-    </table>
-    <hr> 
-    <h3>Hobbies</h3>
-    <ol>
-        <li><a href="https://www.instagram.com/austinxjohns/">Travelling</a></li>
-        <li><a href="https://www.instagram.com/austinxjohns/">Photography</a></li>
-        <li>Driving</li>
-    </ol>
-    <a href="ContactMe.html"><h3>Contact Me</h3></a>
+  <header>
+    <nav>
+      <div class="logo">Austin Johns</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Austin Johns</h1>
+      <h2>Software Developer</h2>
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod ex ante, vel pharetra mauris tristique a. In luctus risus non odio finibus, a ultrices lorem consectetur.</p>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of Project 1</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of Project 2</p>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: austin@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Austin Johns. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
